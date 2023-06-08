@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>PartnerClone</title>
+</head>
+
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+
+<body class="">
+
+  <header class="container-fluid bg-dark">
+    <section class="row text-light">
+      <div class="col-12 text-center mt-3">
+        <i class="mdi mdi-horse-human fs-1"></i>
+        <h1>Knight Studios</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi neque veritatis reiciendis incidunt magni
+          exercitationem!</p>
+        <button class="btn rounded start-button">Get Started</button>
+      </div>
+    </section>
+  </header>
+
+  <main class="container-fluid">
+
+    <!-- NAV BAR -->
+    <section class="row shadow">
+      <div class="col-6">
+        <i class="mdi mdi-horse fs-2 ps-4"></i>
+      </div>
+      <div class="d-none d-md-flex col-6 nav-bar justify-content-between pt-2">
+        <p>Home</p>
+        <p>About</p>
+        <p>Service</p>
+        <p>Portfolio</p>
+        <p>Team</p>
+        <p>Pricing</p>
+        <p>Drop-Down</p>
+        <p>Contact</p>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="row">
+      <div class="col-12 text-center">
+        <h1 class="pt-2">About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, praesentium.</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col-12 col-md-6 d-flex justify-content-center">
+        <img class="img-fluid about-border"
+          src="https://media.istockphoto.com/id/1440917866/photo/modern-open-plan-office-space-interior.webp?b=1&s=170667a&w=0&k=20&c=vaidCDHWF1VcAZ_KbTHg4aYPi_ls9pHryzWmYYJfAiY="
+          alt="Office">
+      </div>
+      <div class="col-12 col-md-6 about-border">
+        <h3>This is a Heading</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p> <i class="mdi mdi-checkbox-marked"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim
+          necessitatibus nobis aperiam, eius eligendi. ipsum dolor sit amet.</p>
+        <p> <i class="mdi mdi-checkbox-marked"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur dignissimos at sit. Laboriosam, expedita suscipit. ipsum dolor sit amet.</p>
+        <p> <i class="mdi mdi-checkbox-marked"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+          ullam ex vel, quae obcaecati laboriosam! ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+
+    <h2 class="text-center pt-3">Service</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo atque modi quam eaque
+      magni.</p>
+
+    <!-- SERVICES TOP -->
+
+    <section class="row">
+
+      <!-- <div class="col-1 d-flex flex-column">
+        <i class="mdi mdi-box"></i>
+        <i class="mdi mdi-box"></i>
+        <i class="mdi mdi-box"></i>
+        <i class="mdi mdi-box"></i>
+      </div> -->
+
+      <div class="col-12 col-md-6 d-flex flex-column order-2 order-md-1 ps-5">
+        <!-- <i class="mdi mdi-archive"></i>
+        <div class="d-flex flex-column">
+          <h4>Stuff</h4>
+          <p>things</p>
+        </div> -->
+
+
+        <h4><i class="mdi mdi-box"></i>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+        <h4><i class="mdi mdi-box"></i>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+        <h4><i class="mdi mdi-box"></i>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+        <h4><i class="mdi mdi-box"></i>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+      </div>
+
+      <div class="col-12 col-md-6 order-1 order-md-2 pe-3 d-flex justify-content-center">
+        <img class="img-fluid"
+          src="https://media.istockphoto.com/id/1428244590/photo/new-green-leaves-are-born-on-old-trees-ideas-for-hope-for-a-new-life-in-the-future-natural.webp?b=1&s=170667a&w=0&k=20&c=XZOt9Q0u3eOphN9VAccH816_iPPYDn2z7M2iuUfS-BU="
+          alt="Tree">
+      </div>
+    </section>
+
+    <!-- SERVICES BOTTOM -->
+    <section class="row">
+      <div class="col-12 col-md-6 d-flex justify-content-center">
+        <img class="img-fluid"
+          src="https://media.istockphoto.com/id/1428244590/photo/new-green-leaves-are-born-on-old-trees-ideas-for-hope-for-a-new-life-in-the-future-natural.webp?b=1&s=170667a&w=0&k=20&c=XZOt9Q0u3eOphN9VAccH816_iPPYDn2z7M2iuUfS-BU="
+          alt="Tree">
+      </div>
+
+      <div class="col-12 col-md-6 d-flex flex-column ps-5">
+        <h4>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+        <h4>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+        <h4>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+        <h4>Service</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, et!</p>
+      </div>
+    </section>
+
+    <!-- DROPDOWN SECTION -->
+    <section class="row">
+      <div class="col-12 col-md-6 order-1 order-md-2 ps-5">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam, voluptates repellendus nam facilis
+          unde quae ipsam sed voluptatem optio beatae perferendis debitis illo tempore ipsa, voluptatum quo quam
+          suscipit.</p>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 order 2 order-md-1 d-flex justify-content-center">
+        <img class="img-fluid"
+          src="https://media.istockphoto.com/id/1446671509/photo/playground-set-in-a-residential-community-at-utah-valley.webp?b=1&s=170667a&w=0&k=20&c=tRMfu5yPMMYCc1vxikXT0iFjKOtUje0Vd87epPCHdDk="
+          alt="Playground">
+      </div>
+    </section>
+
+    <!-- VIEW SECTION -->
+    <section class="row">
+      <div class="col-12 text-center">
+        <i class="mdi mdi-account fs-2"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda nemo vero officiis a deserunt nihil
+          corrupti iusto aperiam accusamus. Eligendi nostrum enim officiis velit inventore. Qui repudiandae temporibus
+          optio.</p>
+        <img class="guy-pic"
+          src="https://media.istockphoto.com/id/1485546774/photo/bald-man-smiling-at-camera-standing-with-arms-crossed.webp?b=1&s=170667a&w=0&k=20&c=c2rsC66nJQAjkN6vCkhyB0vLHUiZhJSACMCBVF9HJJs="
+          alt="GUY">
+        <h5 class="pt-3">Name</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, rem.</p>
+      </div>
+    </section>
+    <div class="text-center p-4">
+      <h2>Stuff</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto earum adipisci accusantium alias
+        libero
+        deleniti maiores placeat modi, nisi quod, natus sapiente voluptatibus quam harum labore, mollitia tempora
+        nostrum?
+      </p>
+    </div>
+    <!-- BUY SECTION -->
+
+    <section class="row">
+      <div class="col-12 col-md-4 rounded buy-border ">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+
+        <button class="btn rounded start-button">Buy</button>
+      </div>
+      <div class="col-12 col-md-4 rounded buy-border">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+
+        <button class="btn rounded start-button">Buy</button>
+      </div>
+      <div class="col-12 col-md-4 rounded buy-border">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+
+        <button class="btn rounded start-button">Buy</button>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <div class="text-center p-3">
+      <H2>Contact</H2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde ullam voluptatem? Natus esse laborum,
+        cupiditate
+        quibusdam enim nostrum, minima earum eveniet atque commodi dolorum dolores provident. Fugiat, magnam iure.</p>
+    </div>
+
+    <section class="row">
+      <div class="col-12 col-md-4 p-3">
+        <p><i class="mdi mdi-guitar-pick-outline"></i> something cool</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quisquam voluptatem voluptas.</p>
+        <p><i class="mdi mdi-guitar-pick-outline"></i> something cool</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quisquam voluptatem voluptas.</p>
+        <p><i class="mdi mdi-guitar-pick-outline"></i> something cool</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quisquam voluptatem voluptas.</p>
+      </div>
+
+      <div class="col-12 col-md-8 p-3">
+        <div class="d-flex justify-content-around">
+          <div class="form-floating ">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Your Name</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Your Email</label>
+          </div>
+        </div>
+
+        <div class="form-floating ">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Subject</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Message</label>
+        </div>
+        <button class="btn rounded start-button">Click Me</button>
+
+      </div>
+    </section>
+
+    <!-- BOTTOM SECTION -->
+    <section class="row text-light bg-dark">
+      <div class="col-12 text-center pt-3">
+        <i class="mdi mdi-horse-human fs-2"></i>
+        <h1>Knight</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi neque veritatis reiciendis incidunt magni
+          exercitationem!</p>
+        <button class="btn">Get Started</button>
+      </div>
+
+      <form class="form-floating">
+        <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com"
+          value="test@example.com">
+        <label for="floatingInputValue">Input with value</label>
+      </form>
+      <div class="d-flex justify-content-center fs-3 py-2 ">
+        <i class="mdi mdi-facebook px-2"></i>
+        <i class="mdi mdi-twitter px-2"></i>
+        <i class="mdi mdi-instagram px-2"></i>
+        <i class="mdi mdi-skype px-2"></i>
+        <i class="mdi mdi-cat px-2"></i>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>
